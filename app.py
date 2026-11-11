@@ -28,8 +28,8 @@ APP_ENV = os.environ.get("APP_ENV", "local")
 app = FastAPI(title="Server Inventory API", version="1.0.0")
 
 servers = {
-    1: {"id": 1, "name": "web-00000001", "ip": "10.0.0.11", "env": "prod"},
-    2: {"id": 2, "name": "db-000000001", "ip": "10.0.0.21", "env": "prod"},
+    1: {"id": 1, "name": "web-00000001", "ip": "10.0.0.20", "env": "prod"},
+    2: {"id": 2, "name": "db-000000001", "ip": "10.0.0.40", "env": "prod"},
 }
 
 
